@@ -36,7 +36,10 @@ changeProfile.innerHTML = "My money's in that office, right? If she start giving
 
 Append this div element to the nameBox div*/
 
- 
+ var chucky=document.createElement("div");
+ chucky.id="name7";
+ // chucky.innerHTML="Chuck Norris";
+ nameBox.appendChild(chucky);
 
 /*7. Create a div element for Grimmace and give it an id of "alias8". Inside this div element, give it the contents of "The Purple Monster".
 
