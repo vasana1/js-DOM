@@ -24,6 +24,7 @@ changeAlias.innerHTML = "Concatenation";
 /*4. Replace the n/a for Snoop with the gangsta lorem ipsum*/
 
 var changeProfile = document.getElementsByClassName("profile")[0];
+//or add [0] here: changeProfile[0].innerHTML " "
 changeProfile.innerHTML = "Lorizzle ipsizzle dolor boom shackalack amizzle, consectetuer adipiscing elit. Nullam owned gangsta, aliquet for sure, dawg crackalackin, shut the shizzle up vizzle, arcu. Pellentesque eget mammasay mammasa mamma oo sa. Sizzle erizzle. Bizzle izzle dolor dapibizzle turpis tempizzle dizzle. Maurizzle pellentesque nibh black turpizzle. We gonna chung bow wow wow boofron. Pellentesque eleifend rhoncizzle nisi. Bizzle bow wow wow away platea dictumst. Tellivizzle dapibizzle. Uhuh ... yih! tellus pizzle, pretizzle eu, mattizzle ac, eleifend gangsta, things. Brizzle suscipit. Integizzle izzle velizzle sed sheezy.";
 
 /*5. Relace the n/a for Samuel L Jackson with his lorem ipsum*/
@@ -38,15 +39,31 @@ Append this div element to the nameBox div*/
 
  var chucky=document.createElement("div");
  chucky.id="name7";
- // chucky.innerHTML="Chuck Norris";
+ chucky.innerHTML="Chuck Norris";
  nameBox.appendChild(chucky);
 
 /*7. Create a div element for Grimmace and give it an id of "alias8". Inside this div element, give it the contents of "The Purple Monster".
 
 Append this div element to the aliasBox div.*/
 
-
+var grimmy=document.createElement("div");
+grimmy.id="alias8";
+grimmy.innerHTML="The Purple Monster";
+aliasBox.appendChild(grimmy);
 
 
 //Final Boss
 /*8. Create your own profile.*/
+
+// var obama=document.createElement("http://68.media.tumblr.com/537e8e980f1ebc85ce66301a757da2d5/tumblr_ndvk59aQEs1u226bko1_400.jpg");
+// obama.id="alias9";
+// obama.innerHTML="Hawaii's President";
+// block3 col-sm-4.appendChild(obama);
+
+var obama=document.getElementsByClassName("block3 col-sm-4")[2];
+// document.getElementById("img").src = "http://68.media.tumblr.com/537e8e980f1ebc85ce66301a757da2d5/tumblr_ndvk59aQEs1u226bko1_400.jpg";
+obama.innerHTML="Obama";
+block3[2].appendChild(obama);
+
+console.log(obama);
+
