@@ -60,10 +60,10 @@ aliasBox.appendChild(grimmy);
 // obama.innerHTML="Hawaii's President";
 // block3 col-sm-4.appendChild(obama);
 
-var obama=document.getElementsByClassName("block3 col-sm-4")[2];
-// document.getElementById("img").src = "http://68.media.tumblr.com/537e8e980f1ebc85ce66301a757da2d5/tumblr_ndvk59aQEs1u226bko1_400.jpg";
+var obama=document.getElementsByClassName("block3")[2];
+obama.id="name8";
 obama.innerHTML="Obama";
-block3[2].appendChild(obama);
+obama[2].appendChild(obama);
 
 console.log(obama);
 
