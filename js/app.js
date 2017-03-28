@@ -55,15 +55,18 @@ aliasBox.appendChild(grimmy);
 //Final Boss
 /*8. Create your own profile.*/
 
-// var obama=document.createElement("http://68.media.tumblr.com/537e8e980f1ebc85ce66301a757da2d5/tumblr_ndvk59aQEs1u226bko1_400.jpg");
-// obama.id="alias9";
-// obama.innerHTML="Hawaii's President";
-// block3 col-sm-4.appendChild(obama);
+var obamaName=document.createElement("div");
+obamaName.id="name9";
+obamaName.innerHTML="Barack Obama";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(obamaName);
 
-var obama=document.getElementsByClassName("block3")[2];
-obama.id="name8";
-obama.innerHTML="Obama";
-obama[2].appendChild(obama);
+var obamaPosition=document.createElement("div");
+obamaPosition.id="position9";
+obamaPosition.innerHTML="BOB";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(obamaPosition);
 
-console.log(obama);
+var obamaBio=document.createElement("div");
+obamaBio.id="bio9";
+obamaBio.innerHTML="New economy idea shower. Moving the goalposts innovation is hot right now yet get all your ducks in a row open door policy please use solutionise instead of solution ideas! Anti-pattern guerrilla marketing, yet good optics for knowledge is power. Those options are already baked in with this model back to the drawing-board, fire up your browser. That jerk from finance really threw me under the bus i also believe it's important for every member to be involved and invested in our company and this is one way to do so and first-order optimal strategies so gain traction goalposts are we in agreeance, and we need to button up our approach. Herding cats moving the goalposts.";
+document.getElementsByClassName("block3 col-sm-4")[2].appendChild(obamaBio);
 
